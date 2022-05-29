@@ -33,5 +33,6 @@ public class Coll {
             System.out.println("Не палиндром");
 
         }
+        System.out.println("test git");
     }
 }
