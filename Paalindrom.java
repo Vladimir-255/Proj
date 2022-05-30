@@ -8,10 +8,14 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.io.BufferedReader;
 
-public class Coll {
+public class Paalindrom {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String word = scan.nextLine();
+       String x ="madam";
+      palindrom("madama");
+    }
+     public static void palindrom(String word) {
+       // Scanner scan = new Scanner(System.in);
+        //String word = scan.nextLine();
         List<Character> set = new ArrayList<>();
         for (int i = 0; i < word.length(); i++) {
             set.add(word.charAt(i));
@@ -33,6 +37,5 @@ public class Coll {
             System.out.println("Не палиндром");
 
         }
-        System.out.println("test git");
     }
 }
