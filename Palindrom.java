@@ -8,7 +8,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.io.BufferedReader;
 
-public class Paalindrom {
+public class Palindrom {
     public static void main(String[] args) {
        String x ="madam";
       palindrom("madama");
